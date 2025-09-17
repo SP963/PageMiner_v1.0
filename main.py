@@ -19,7 +19,7 @@ from crawler import WebCrawler
 SCRAPING_MODE = os.getenv("SCRAPING_MODE", "local")
 
 # Streamlit UI
-st.title("PageMiner")
+st.title("PageMiner_V1.0")
 
 # Show current backend
 st.sidebar.info(f"🔧 Mode: {SCRAPING_MODE.title()}")
